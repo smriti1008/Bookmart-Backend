@@ -1,0 +1,56 @@
+node_modulas
+/node_modules
+# Ignore node_modules directory
+.DS_Store
+# macOS specific file
+*.log
+# Ignore log files
+# *.env
+# Ignore environment variable files
+*.tmp
+# Ignore temporary files
+*.cache
+# Ignore cache files
+*.bak
+# Ignore backup files
+*.swp
+# Ignore swap files
+*.pid
+# Ignore process ID files
+*.orig
+# Ignore original files
+*.sublime-workspace
+# Ignore Sublime Text workspace files
+*.sublime-project
+# Ignore Sublime Text project files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Ignore environment variable files
+
+
+
+# Ignore IDE specific files
+.idea/    
+# JetBrains IDEs
+.vscode/
+# Visual Studio Code
+*.vscode/
+*.iml
+# IntelliJ IDEA module files
+
+*.class
+# Java class files
+*.jar
+# Java archive files
+*.war
+# Web application archive files
+*.ear
+# Enterprise archive files
+*.db
+# Database files
+*.sqlite
+# SQLite database files
+*.log
