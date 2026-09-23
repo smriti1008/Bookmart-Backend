@@ -12,7 +12,6 @@ const createTransporter = () => {
     },
   });
 };
-
 // Format currency
 const formatCurrency = (amount) => {
   return new Intl.NumberFormat("en-IN", {
@@ -20,7 +19,6 @@ const formatCurrency = (amount) => {
     currency: "INR",
   }).format(amount);
 };
-
 // Format date
 const formatDate = (date) => {
   return new Date(date).toLocaleString("en-IN", {
